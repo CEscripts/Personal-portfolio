@@ -7,10 +7,12 @@
     font-family: "Asap";
     src: url('./resources/Asap-VariableFont_wdth,wght.ttf');
 }
-
+html{
+    background-color: gray;
+}
 body{
     display: flex;
-    height: auto;
+    height: 100%;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: baseline;
@@ -276,4 +278,20 @@ content {
     font-weight: 400;
     background-color: rgba(109, 106, 102, 0.089);
     height: fit-content;
+}
+/* content ends */
+/* footer begins */
+footer {
+    display: inline-flex!important;
+    background-color: gray;
+    height: 5rem;
+    text-decoration: underline;
+    color: white;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    flex: 1;
+}
+footer h3 {
+    margin-top: 0.5rem;
 }
